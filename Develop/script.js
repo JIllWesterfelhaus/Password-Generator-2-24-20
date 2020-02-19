@@ -8,7 +8,7 @@ function writePassword(length) {
 
   passwordText.value = password;
 }
-For(var i = 0; i  < length; i++) {
+For(var i = 0; i < writePassword.length; i++) {
   passwordText += password.chartAt(Math.floor(Math.random() * length));
 }
 
