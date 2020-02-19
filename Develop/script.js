@@ -8,7 +8,9 @@ function writePassword(length) {
 
   passwordText.value = password;
 }
-For(var i = 0; i  <  writePassword.length; i++)
+For(var i = 0; i  < length; i++) {
+  passwordText += password.chartAt(Math.floor(Math.random() * length));
+}
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
