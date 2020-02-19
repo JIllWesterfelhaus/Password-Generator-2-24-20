@@ -13,4 +13,6 @@ For(var i = 0; i < writePassword.length; i++) {
 }
 
 // Add event listener to generate button
+
+//if? alert?
 generateBtn.addEventListener("click", writePassword);
