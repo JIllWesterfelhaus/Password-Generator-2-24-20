@@ -5,8 +5,8 @@ var upperCase = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "A", "S", "D"
 var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 var specialCharacters = ["`", "`", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "-", "+", "=", "{", "}", "|", "[", "]", ":", ";", ",", ".", "<", ">", "?", "/"]
 
-prompt ("How many characters do you want in your password?")
-var numberCharacters = prompt ("How many characters do you want in your password?");
+prompt ("How many characters do you want in your password? It must be between 8 and 128 characters.")
+var numberCharacters = prompt ("How many characters do you want in your password?  It must be between 8 and 128 characters.");
 if (numberCharacters) {
     alert ("You want " + numberCharacters + " characters in your password.")
 }
