@@ -1,11 +1,11 @@
 var generateBtn = document.querySelector("#generate");
 
-var lowerCase = ["q", "w",]
+var lowerCase = ["q", "w",]  //do I need spaces between array items?//
 var upperCase = []
 var numbers = [1,2,3,4,5,6,7,8,9,0]
 var specialCharacters = []
 
-function generatePassword() {
+function generatePassword() { //write code here to generate password from what client wants//
   
 }
 
