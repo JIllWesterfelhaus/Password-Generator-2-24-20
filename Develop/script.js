@@ -13,11 +13,11 @@ if (numberCharacters) {
 
 var confirmLowerCase = confirm ("Do you want lowercase letters in your password?");
 if (confirmLowerCase) {
-    alert("You want lowercase letters in your password.");
-}
-    else (confirmLowerCase) {
+    alert("You want lowercase letters in your password.") 
+       else {
     alert("You don't want lowercase letters in your password.")
-}
+    }
+  }
 
 
 
