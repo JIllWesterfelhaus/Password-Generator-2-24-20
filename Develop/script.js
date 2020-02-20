@@ -17,9 +17,27 @@ if (confirmLowerCase) {
     else {
         alert ("You do not want lowercase letters in your password.");
     }
-       
+    
+var confirmUpperCase = confirm ("Do you want uppercase letters in your password?");
+if (confirmUpperCase) {
+    alert("You want uppercase letters in your password.")}
+    else {
+        alert ("You do not want uppercase letters in your password.");
+     }   
 
+var confirmNumbers = confirm ("Do you want numbers in your password?");
+if (confirmNumbers) {
+    alert("You want numbers in your password.")}
+    else {
+        alert ("You do not want numbers in your password.");
+    } 
 
+var confirmSpecialCharacters = confirm ("Do you want special characters in your password?");
+if (confirmSpecialCharacters) {
+    alert("You want special characters in your password.")}
+    else {
+        alert ("You do not want special characters in your password.");
+    } 
 
 function generatePassword() { //write code here to generate password from what client wants//
 
