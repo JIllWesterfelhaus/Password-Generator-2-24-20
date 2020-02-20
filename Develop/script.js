@@ -8,9 +8,16 @@ var specialCharacters = ["`", "`", "!", "@", "#", "$", "%", "^", "&", "*", "(", 
 prompt ("How many characters do you want in your password?")
 var numberCharacters = prompt ("How many characters do you want in your password?");
 if (numberCharacters) {
-    alert ("You want " + numberCharacters + "in your password.")
+    alert ("You want " + numberCharacters + " characters in your password.")
 }
 
+var confirmLowerCase = confirm ("Do you want lowercase letters in your password?");
+if confirm (confirmLowerCase) {
+    alert("You want lowercase letters in your password.");
+}
+    else if (confirmLowerCase) {
+    alert("You don't want lowercase letters in your password.")
+}
 
 
 
