@@ -43,18 +43,19 @@ if (confirmSpecialCharacters) {
 
 //Stop here if no character types or numbers are requested.//
 
-function generatePassword() { //write code here to generate password from what client wants//
-
+function generatePassword() {   
+    //write code here to generate password from what client wants.  Math random, math floor?//
+console.log(result)
 }
+generatePassword ()
 
-// Write password to the #password input
+// Write password to the #password input//
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password"); 
 
   passwordText.value = password;
-
 }
 
-// Add event listener to generate button
+// Add event listener to generate button//
 generateBtn.addEventListener("click", writePassword);
