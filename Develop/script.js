@@ -11,6 +11,8 @@ if (numberCharacters) {
     alert ("You want " + numberCharacters + " characters in your password.")
 }
 
+//Stop here if less than 8 characters or more than 128 characters requested.//
+
 var confirmLowerCase = confirm ("Do you want lowercase letters in your password?");
 if (confirmLowerCase) {
     alert("You want lowercase letters in your password.")}
@@ -38,6 +40,8 @@ if (confirmSpecialCharacters) {
     else {
         alert ("You do not want special characters in your password.");
     } 
+
+//Stop here if no character types or numbers are requested.//
 
 function generatePassword() { //write code here to generate password from what client wants//
 
