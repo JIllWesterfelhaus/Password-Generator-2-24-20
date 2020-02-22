@@ -40,10 +40,11 @@ function generatePassword() {
     console.log(megaArray)
     var password = ""
     for (var i = 0; i < numberCharacters; i++) {
-        password += Math.floor()
+        password += megaArray [Math.floor(Math.random()*megaArray.length)]
     }
+    return password
 }
-generatePassword()
+
 
 // Write password to the #password input//
 function writePassword() {
