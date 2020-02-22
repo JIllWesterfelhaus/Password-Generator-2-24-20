@@ -9,8 +9,6 @@ var specialCharacters = ["`", "`", "!", "@", "#", "$", "%", "^", "&", "*", "(", 
 
 var numberCharacters = prompt("How many characters do you want in your password?  It must be between 8 and 128 characters.");
 
-//Stop here if less than 8 characters or more than 128 characters requested.//
-
 var confirmLowerCase = confirm("Do you want lowercase letters in your password?");
 
 var confirmUpperCase = confirm("Do you want uppercase letters in your password?");
@@ -18,8 +16,6 @@ var confirmUpperCase = confirm("Do you want uppercase letters in your password?"
 var confirmNumbers = confirm("Do you want numbers in your password?");
 
 var confirmSpecialCharacters = confirm("Do you want special characters in your password?");
-
-//Stop here if no character types or numbers are requested.//
 
 function generatePassword() {
 
