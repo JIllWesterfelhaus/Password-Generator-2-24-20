@@ -42,8 +42,6 @@ function generatePassword() {
     for (var i = 0; i < numberCharacters; i++) {
         password += Math.floor()
     }
-
-    //write code here to generate password from what client wants.  Math random, math floor?//
 }
 generatePassword()
 
