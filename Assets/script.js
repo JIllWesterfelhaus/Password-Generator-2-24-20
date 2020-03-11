@@ -1,4 +1,6 @@
-      
+function startPassword() {
+    alert("Let's start your password!");  
+    
     var generateBtn = document.querySelector("#generate");
 
     var megaArray = []
